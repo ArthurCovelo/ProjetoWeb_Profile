@@ -7,8 +7,17 @@ function toggleMode() {
   const img = document.querySelector("#img img")
 
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./assets/arthurcovelo-light.png")
+    // Mudar para o modo light
+    img.style.opacity = "0" // Aplica o fade-out na imagem
+    setTimeout(() => {
+      img.setAttribute("src", "./assets/arthurcovelo-light.png")
+      img.style.opacity = "1"
+    }, 400)
   } else {
-    img.setAttribute("src", "./assets/arthurcovelo.png")
+    img.style.opacity = "0"
+    setTimeout(() => {
+      img.setAttribute("src", "./assets/arthurcovelo.png")
+      img.style.opacity = "1"
+    }, 400)
   }
 }

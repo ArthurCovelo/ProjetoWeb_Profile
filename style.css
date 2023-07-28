@@ -26,6 +26,7 @@
 body {
   background: var(--bg-url) no-repeat top center/cover;
   height: 100vh;
+  transition: background-color 0.5s, color 0.5s, background-image 0.5s;
 }
 body * {
   font-family: "Handjet", cursive;
@@ -43,6 +44,7 @@ body * {
   width: 50%;
   display: block;
   margin: auto;
+  transition: opacity 0.7s;
 }
 #text {
   text-align: center;
@@ -67,6 +69,7 @@ body * {
   z-index: 1;
   transform: translateY(-50%);
   animation: frame-frame-out 0.4s;
+  transition: background-image 0.5s;
 }
 
 .light #switch button {
@@ -107,6 +110,7 @@ ul li a {
   padding: 10px 24px;
   text-decoration: none;
   font-weight: bold;
+  transition: background-color 0.5s, border-color 0.5s;
 }
 
 ul li a:hover {
