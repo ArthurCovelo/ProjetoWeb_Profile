@@ -7,8 +7,8 @@ function toggleMode() {
   const img = document.querySelector("#img img")
 
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./assets/ArthurCoveloLight.png")
+    img.setAttribute("src", "./assets/arthurcovelo-light.png")
   } else {
-    img.setAttribute("src", "./assets/ArthurCovelo.png")
+    img.setAttribute("src", "./assets/arthurcovelo.png")
   }
 }
