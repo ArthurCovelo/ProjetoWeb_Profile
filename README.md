@@ -12,6 +12,7 @@ Projeto construído Pelo Arthur covelo com muito 💛 da Rocketseat.
 
 - HTML
 - CSS
+- JavaScript
 - Git e Github
 - Figma
 
